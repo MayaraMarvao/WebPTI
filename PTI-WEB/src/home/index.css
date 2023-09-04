@@ -1,0 +1,159 @@
+
+body{
+    background-color: rgb(255, 220, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(70, 39, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+
+}
+
+
+h3{
+    font-size: 2rem;
+}
+
+
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1rem 4rem;
+    gap: 2rem;
+}
+
+.container1{
+    max-width: 50%;
+    padding-left: 3rem;
+
+ 
+}
+
+.container1 h1{
+   
+    font-size: 2.3rem; 
+
+}
+
+
+.container1 img{
+    max-width: 7rem;
+    height: -25%;
+
+}
+
+.container1 p{
+}
+
+.formul{
+    background-color: rgb(70, 39, 0);
+    padding: 1rem 2rem 2rem 2rem ;
+    color: #fcabcd;
+    border-radius: 15px ;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    border-color: rgb(143, 84, 11);;
+    border-style: inset;
+}       
+
+.formul input{
+    border-radius: 15px;
+    width: 90%;
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(255, 220, 240);
+}
+
+
+.doces{
+    padding: 2rem 4rem;
+    background-color: #633705;
+    border-radius: 10px;
+    display: flex;
+    align-content: flex-start;
+
+    gap: 1rem;
+    color: #fcabcd;
+}
+
+.doces img{
+    max-width: 45%;
+    border-radius: 25% 10px;
+    border-style: inset;
+}
+.doces p{
+    max-width: 20rem;
+    
+}
+.doces div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.historia {
+ 
+    justify-content: center;
+}
+
+.historia p{
+    padding: 1rem  2rem;
+}
+
+.botao{   
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 10rem;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgb(167, 20, 64) 0%, rgb(241, 172, 250) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #fc42be98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.botao:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #ffbfea98;
+}
+
+.botao {
+  box-shadow: 0 0.3em 1em -0.5em #eb8bd398;
+}
+
+a{
+    color: #633705;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.contato {
+    background-color: #fafafa;
+   
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+.contato img{
+    max-width: 3rem;
+    max-height: 3rem;
+    
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
